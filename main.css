@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: rgb(238, 234, 226);
     /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Tenor Sans', sans-serif;
 }
@@ -7,10 +8,16 @@ body {
 li {
     list-style-type: none;
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: 5.8rem;
 }
 
 a {
     text-decoration: none;
     color: rgb(23, 23, 23);
+    
+}
+
+a:hover {
+    font-size: 6.8rem;
+    transition: all 0.5s ease-out;
 }
