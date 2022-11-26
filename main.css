@@ -1,23 +1,87 @@
 body {
     margin: 0;
     background: rgb(238, 234, 226);
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Tenor Sans', sans-serif;
+}
+
+header {
+    height: 5rem;
+    background: rgb(25, 25, 25);
+    border-bottom: solid 0.1rem rgb(25, 25, 25);
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+i {
+    color: rgb(238, 234, 226);
+    font-size: 2rem;
+    margin-left: 3rem;
 }
 
 li {
     list-style-type: none;
-    text-transform: uppercase;
     font-size: 5.8rem;
 }
 
 a {
+    font-family: 'Tenor Sans', sans-serif;
     text-decoration: none;
-    color: rgb(23, 23, 23);
+    color: rgb(25, 25, 25);
     
 }
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 a:hover {
     font-size: 6.8rem;
     transition: all 0.5s ease-out;
+}
+
+.presentation {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+nav {
+    padding-right: 4rem;
+}
+
+/* Reusable classes */
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-justify-between {
+    justify-content: space-between;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.spacing {
+    letter-spacing: .18rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
