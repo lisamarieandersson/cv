@@ -1,5 +1,9 @@
 /* Mobile first */
 
+:root {
+    --header-height: 4rem;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -11,8 +15,8 @@ body {
 header {
     background: #f1f4ff;
     /*background: rgb(238, 234, 226);*/
-    height: 4rem;
-    width: 100%;
+    height: var(--header-height);
+    inset: 0;
     position: fixed;
     border-bottom: solid 0.09rem #001f9b;
 }
@@ -24,10 +28,16 @@ h2 {
 
 .icons {
     width: 60%;
+    /*background-color: white;
+    border: solid 0.09rem black;*/
 }
 
 i {
     font-size: 2rem;
+}
+
+i:hover {
+    font-size: 3rem;
 }
 
 ul {
