@@ -175,9 +175,13 @@ nav {
     h2 {
         font-size: 2rem;
     }
-    
+
     .icons {
-        width: 70%;
+        justify-content: flex-start;
+    }
+
+    i {
+        margin-left: 2.4rem;
     }
 
     .margin-left {
