@@ -24,6 +24,8 @@ header {
 
 h2 {
     font-size: 1.3rem;
+    background-color: white;
+    border: solid 0.09rem black;
 }
 
 .icons {
@@ -60,28 +62,32 @@ a {
 
 p {
     font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border: solid 0.09rem black;
 }
 
 
 a:hover {
-    font-size: 4rem;
+    font-size: 3.2rem;
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
 }
 
 .presentation {
     margin-top: 7rem;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
+    background-color: white;
+    border: solid 0.09rem black;
+    flex-direction: column;
 }
 
 nav {
     padding: 0;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
+    background-color: white;
+    border: solid 0.09rem black;
     margin-top: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
+
 
 /* Reusable classes */
 
@@ -121,11 +127,11 @@ nav {
     text-transform: uppercase;
 }
 
-.margin-left-2 {
+.margin-left {
     margin-left: 2rem;
 }
 
-.margin-right-2 {
+.margin-right {
     margin-right: 2rem;
 }
 
@@ -133,8 +139,28 @@ nav {
     line-height: 1.6;
 }
 
+/* Desktop */ 
+
 @media (min-width: 1024px) {
 
+    .flex-column {
+        flex-direction: row;
+    }
 
+    .presentation {
+        height: 20rem;
+    }
+
+    nav {
+        margin-top: 7rem;
+    }
+
+    li {
+        font-size: 5rem;
+    }
+
+    a:hover {
+        font-size: 6rem;
+    }
     
 }
