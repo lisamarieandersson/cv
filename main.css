@@ -22,7 +22,7 @@ header {
 
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     /*background-color: white;
     border: solid 0.09rem black;*/
 }
@@ -42,6 +42,10 @@ i:hover {
     font-size: 3rem;
 }
 
+.icon-link {
+    color: #5b5bdd;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -52,12 +56,19 @@ li {
     font-size: 3.2rem;
 }
 
-a {
+.list-link {
     font-family: 'DM Serif Display', serif;
     font-style: italic;
     text-decoration: none;
     color: #5b5bdd;
     
+}
+
+.list-link:hover {
+    font-size: 3.6rem;
+    font-style: normal;
+    transition: all 0.5s ease-out;
+    text-decoration-line: underline;
 }
 
 p {
@@ -66,12 +77,25 @@ p {
     border: solid 0.09rem black;*/
 }
 
+.school {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #5b5bdd;
+    text-decoration: none;
+}
+
+.school:hover {
+    transition: all 0.5s ease-out;
+    color: #5b5bdd;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
 
 a:hover {
-    font-size: 3.6rem;
-    font-style: normal;
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
+    color: #5b5bdd;
 }
 
 hr {
@@ -148,6 +172,32 @@ nav {
 
 /* Tablet */
 
+@media (min-width: 768px) {
+    
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    li {
+        font-size: 5rem;
+    }
+
+    hr {
+        margin-top: 3rem;
+    }
+
+    .list-link:hover {
+        font-size: 6rem;
+    }
+
+    .margin-left {
+        margin-left: 3rem;
+    }
+    
+    .margin-right {
+        margin-right: 3rem;
+    }
+}
 
 /* Desktop */ 
 
@@ -165,14 +215,6 @@ nav {
         margin-top: 7rem;
     }
 
-    li {
-        font-size: 5rem;
-    }
-
-    a:hover {
-        font-size: 6rem;
-    }
-
     header {
         justify-content: center;
     }
@@ -182,7 +224,7 @@ nav {
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     .icons {
@@ -191,6 +233,10 @@ nav {
 
     i {
         margin-left: 3rem;
+    }
+
+    hr {
+        margin-top: 1rem;
     }
 
     .margin-left {
