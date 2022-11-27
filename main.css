@@ -17,7 +17,7 @@ header {
     height: var(--header-height);
     inset: 0;
     position: fixed;
-    border-bottom: solid 0.09rem #5b5bdd;
+    border-bottom: solid 0.1rem #5b5bdd;
 }
 
 
@@ -74,6 +74,12 @@ a:hover {
     text-decoration-line: underline;
 }
 
+hr {
+    background-color: #5b5bdd;
+    border-style: solid;
+    margin-top: 1rem;
+}
+
 .presentation {
     margin-top: 7rem;
     flex-direction: column;
@@ -85,7 +91,7 @@ nav {
     padding: 0;
     margin-top: 2rem;
     margin-bottom: 4rem;
-       /*background-color: white;
+    /*background-color: white;
     border: solid 0.09rem black;*/
 }
 
@@ -140,6 +146,9 @@ nav {
     line-height: 1.6;
 }
 
+/* Tablet */
+
+
 /* Desktop */ 
 
 @media (min-width: 1024px) {
@@ -181,7 +190,7 @@ nav {
     }
 
     i {
-        margin-left: 2.4rem;
+        margin-left: 3rem;
     }
 
     .margin-left {
