@@ -17,7 +17,7 @@ header {
     height: var(--header-height);
     inset: 0;
     position: fixed;
-    border-bottom: solid 0.09rem #5b5bdd;;
+    border-bottom: solid 0.09rem #5b5bdd;
 }
 
 
@@ -29,9 +29,10 @@ h2 {
 
 .icons {
     width: 100%;
-    background-color: white;
-    border: solid 0.09rem black;
+    /*background-color: white;
+    border: solid 0.09rem black;*/
 }
+
 
 i {
     font-size: 2rem;
@@ -75,17 +76,17 @@ a:hover {
 
 .presentation {
     margin-top: 7rem;
-    background-color: white;
-    border: solid 0.09rem black;
     flex-direction: column;
+    /*background-color: white;
+    border: solid 0.09rem black;*/
 }
 
 nav {
     padding: 0;
-    background-color: white;
-    border: solid 0.09rem black;
     margin-top: 2rem;
     margin-bottom: 4rem;
+       /*background-color: white;
+    border: solid 0.09rem black;*/
 }
 
 
@@ -172,10 +173,18 @@ nav {
     }
 
     h2 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     
     .icons {
-        width: 61%;
+        width: 70%;
+    }
+
+    .margin-left {
+        margin-left: 4rem;
+    }
+
+    .margin-right {
+        margin-right: 4rem;
     }
 }
