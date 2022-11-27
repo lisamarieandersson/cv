@@ -24,12 +24,12 @@ header {
 
 h2 {
     font-size: 1.3rem;
-    background-color: white;
-    border: solid 0.09rem black;
+    /*background-color: white;
+    border: solid 0.09rem black;*/
 }
 
 .icons {
-    width: 60%;
+    width: 100%;
     /*background-color: white;
     border: solid 0.09rem black;*/
 }
@@ -56,14 +56,13 @@ a {
     font-family: 'Tenor Sans', sans-serif;
     text-decoration: none;
     color: #001f9b;
-    /*color: rgb(25, 25, 25);*/
     
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
-    background-color: white;
-    border: solid 0.09rem black;
+    /*background-color: white;
+    border: solid 0.09rem black;*/
 }
 
 
@@ -75,15 +74,15 @@ a:hover {
 
 .presentation {
     margin-top: 7rem;
-    background-color: white;
-    border: solid 0.09rem black;
+    /*background-color: white;
+    border: solid 0.09rem black;*/
     flex-direction: column;
 }
 
 nav {
     padding: 0;
-    background-color: white;
-    border: solid 0.09rem black;
+    /*background-color: white;
+    border: solid 0.09rem black;*/
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
@@ -127,12 +126,12 @@ nav {
     text-transform: uppercase;
 }
 
-.margin-left {
-    margin-left: 2rem;
-}
-
 .margin-right {
     margin-right: 2rem;
+}
+
+.margin-left {
+    margin-left: 2rem;
 }
 
 .line-height {
@@ -148,7 +147,7 @@ nav {
     }
 
     .presentation {
-        height: 20rem;
+        height: 32rem;
     }
 
     nav {
@@ -161,6 +160,18 @@ nav {
 
     a:hover {
         font-size: 6rem;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    main {
+        justify-content: center;
+    }
+    
+    .icons {
+        width: 64%;
     }
     
 }
