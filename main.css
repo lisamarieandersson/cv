@@ -166,6 +166,10 @@ nav {
     margin-left: 2rem;
 }
 
+.margin-2 {
+    margin-left: 2rem;
+}
+
 .line-height {
     line-height: 1.6;
 }
@@ -197,6 +201,7 @@ nav {
     .margin-right {
         margin-right: 3rem;
     }
+
 }
 
 /* Desktop */ 
