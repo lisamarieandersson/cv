@@ -7,17 +7,28 @@
 body {
     margin: 0;
     padding: 0;
-    background: #18191A;
-    color: #f6f2ea;
+    background: #ece7e2;
+    color: #18191A;
     font-family: 'Tenor Sans', sans-serif;
 }
 
 header {
-    background:#f6f2ea;
+    background: #18191A;
     height: var(--header-height);
     inset: 0;
     position: fixed;
     /*border-bottom: solid 0.1rem #18191A;*/
+    transition: height 400ms;
+    overflow-y: hidden;
+}
+
+
+.open {
+    height: 100%;
+}
+
+.upper-section {
+    height: var(--header-height);
 }
 
 
@@ -36,7 +47,7 @@ h2 {
 
 i {
     font-size: 2rem;
-    color: #18191A;
+    color: #ece7e2;
 }
 
 i:hover {
@@ -44,7 +55,7 @@ i:hover {
 }
 
 .icon-link {
-    color: #18191A;
+    color: #ece7e2;
 }
 
 ul {
@@ -52,15 +63,24 @@ ul {
     padding: 0;
 }
 
+.lower-section {
+    color: #ece7e2;
+}
+
 li {
     list-style-type: none;
     font-size: 3.2rem;
 }
 
+.burger-li {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
 .list-link {
     font-family: 'Tenor Sans', sans-serif;
     text-decoration: none;
-    color: #f6f2ea;
+    color: #18191A;
     
 }
 
@@ -79,17 +99,17 @@ p {
 .school {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    color: #f6f2ea;
+    color: #18191A;
     text-decoration: none;
 }
 
 .graduation-hat {
-    color:#f6f2ea;
+    color: #18191A;
 }
 
 .school:hover {
     transition: all 0.5s ease-out;
-    color: #f6f2ea;
+    color: #18191A;
     text-decoration: underline;
     font-size: 1.2rem;
 }
@@ -98,11 +118,11 @@ p {
 a:hover {
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
-    color: #f6f2ea;
+    color: #18191A;
 }
 
 hr {
-    background-color: #f6f2ea;
+    background-color: #18191A;
     border-style: solid;
     margin-top: 1rem;
 }
@@ -120,6 +140,13 @@ nav {
     margin-bottom: 4rem;
     /*background-color: white;
     border: solid 0.09rem black;*/
+}
+
+footer {
+    color: #18191A;
+    height: 2.2rem;
+    inset: 0;
+    font-size: 0.8rem;
 }
 
 
@@ -170,7 +197,7 @@ nav {
 }
 
 .margin-2 {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .line-height {
@@ -203,6 +230,10 @@ nav {
     
     .margin-right {
         margin-right: 3rem;
+    }
+
+    .margin-2 {
+        margin-left: 2rem;
     }
 
 }
