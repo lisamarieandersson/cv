@@ -7,17 +7,17 @@
 body {
     margin: 0;
     padding: 0;
-    background: #fffef3;
-    color: #5b5bdd;
-    font-family: 'DM Serif Display', serif;
+    background: #18191A;
+    color: #f6f2ea;
+    font-family: 'Tenor Sans', sans-serif;
 }
 
 header {
-    background: #fffef3;
+    background:#f6f2ea;
     height: var(--header-height);
     inset: 0;
     position: fixed;
-    border-bottom: solid 0.1rem #5b5bdd;
+    /*border-bottom: solid 0.1rem #18191A;*/
 }
 
 
@@ -36,6 +36,7 @@ h2 {
 
 i {
     font-size: 2rem;
+    color: #18191A;
 }
 
 i:hover {
@@ -43,7 +44,7 @@ i:hover {
 }
 
 .icon-link {
-    color: #5b5bdd;
+    color: #18191A;
 }
 
 ul {
@@ -57,36 +58,38 @@ li {
 }
 
 .list-link {
-    font-family: 'DM Serif Display', serif;
-    font-style: italic;
+    font-family: 'Tenor Sans', sans-serif;
     text-decoration: none;
-    color: #5b5bdd;
+    color: #f6f2ea;
     
 }
 
 .list-link:hover {
     font-size: 3.6rem;
-    font-style: normal;
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     /*background-color: white;
     border: solid 0.09rem black;*/
 }
 
 .school {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    color: #5b5bdd;
+    color: #f6f2ea;
     text-decoration: none;
+}
+
+.graduation-hat {
+    color:#f6f2ea;
 }
 
 .school:hover {
     transition: all 0.5s ease-out;
-    color: #5b5bdd;
+    color: #f6f2ea;
     text-decoration: underline;
     font-size: 1.2rem;
 }
@@ -95,11 +98,11 @@ p {
 a:hover {
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
-    color: #5b5bdd;
+    color: #f6f2ea;
 }
 
 hr {
-    background-color: #5b5bdd;
+    background-color: #f6f2ea;
     border-style: solid;
     margin-top: 1rem;
 }
