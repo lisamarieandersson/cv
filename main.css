@@ -44,8 +44,8 @@ h2 {
 
 .icons {
     width: 100%;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
+    background-color: white;
+    border: solid 0.09rem black;
 }
 
 .icon {
@@ -103,6 +103,11 @@ h2 {
     margin-top: 3rem;
 }
 
+/*.home-nav {
+    background-color: white;
+    border: solid 0.09rem black;
+}*/
+
 .home-ul {
     margin: 0;
     padding: 0;
@@ -158,6 +163,7 @@ p {
     font-size: 0.8rem;
 }
 
+/* styling for links */
 
 .school {
     font-family: 'Work Sans', sans-serif;
