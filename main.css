@@ -7,21 +7,19 @@
 body {
     margin: 0;
     padding: 0;
-    background: #ece7e2;
-    color: #18191A;
+    background: #18191A;
+    color: #fefaf2;
     font-family: 'Tenor Sans', sans-serif;
 }
 
 header {
-    background: #18191A;
+    background: #fefaf2;
     height: var(--header-height);
     inset: 0;
     position: fixed;
-    /*border-bottom: solid 0.1rem #18191A;*/
     transition: height 400ms;
     overflow-y: hidden;
 }
-
 
 .open {
     height: 100%;
@@ -31,12 +29,18 @@ header {
     height: var(--header-height);
 }
 
+/* Styling for headings */
+
+h1 {
+    font-size: 4rem;
+}
+
 
 h2 {
     font-size: 1.6rem;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
 }
+
+/* Styling for icons */
 
 .icons {
     width: 100%;
@@ -44,18 +48,58 @@ h2 {
     border: solid 0.09rem black;*/
 }
 
-
-i {
+.icon {
     font-size: 2rem;
-    color: #ece7e2;
+    color: #18191A;
 }
 
-i:hover {
+.icon:hover {
     font-size: 3rem;
 }
 
 .icon-link {
-    color: #ece7e2;
+    color: #18191A;
+}
+
+.contact-icon {
+    color: #fefaf2;
+    margin-left: 0;
+    font-size: 2rem;
+}
+
+.contact-icon-link {
+    color: #fefaf2;
+}
+
+.contact-icon-link:hover {
+    text-decoration: line-through;
+}
+
+.graduation-hat {
+    font-size: 2rem;
+    color: #fefaf2;
+}
+
+.graduation-hat:hover {
+    font-size: 2.2rem;
+}
+
+/* Styling for burger menu */
+
+#burger-menu {
+    font-size: 2rem;
+    color: #18191A;
+}
+
+#burger-menu:hover {
+    font-size: 2rem;
+    color: #add8e6;
+}
+
+/* Styling for navigation, unordered list and list items */
+
+.lower-section {
+    color: #fefaf2;
 }
 
 ul {
@@ -63,32 +107,40 @@ ul {
     padding: 0;
 }
 
-.lower-section {
-    color: #ece7e2;
-}
-
 li {
     list-style-type: none;
     font-size: 3.2rem;
 }
 
-.burger-li {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.list-link {
+.li-link {
     font-family: 'Tenor Sans', sans-serif;
     text-decoration: none;
-    color: #18191A;
-    
+    color: #fefaf2;
 }
 
-.list-link:hover {
+.li-link:hover {
     font-size: 3.6rem;
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
 }
+
+.burger-li {
+    font-size: 2.2rem;
+    margin-bottom: 1.4rem;
+    color: #18191A;
+}
+
+.burger-li-link {
+    color: #18191A;
+    text-decoration: none;
+}
+
+.burger-li-link:hover {
+    font-size: 3rem;
+    color: #18191A;
+}
+
+/* Styling for paragraphs */
 
 p {
     font-family: 'Work Sans', sans-serif;
@@ -96,20 +148,21 @@ p {
     border: solid 0.09rem black;*/
 }
 
+.contact-p {
+    font-size: 0.8rem;
+}
+
+
 .school {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    color: #18191A;
+    color: #fefaf2;
     text-decoration: none;
-}
-
-.graduation-hat {
-    color: #18191A;
 }
 
 .school:hover {
     transition: all 0.5s ease-out;
-    color: #18191A;
+    color: #fefaf2;
     text-decoration: underline;
     font-size: 1.2rem;
 }
@@ -118,17 +171,16 @@ p {
 a:hover {
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
-    color: #18191A;
+    color: #fefaf2;
 }
 
 hr {
-    background-color: #18191A;
+    background-color: #fefaf2;
     border-style: solid;
     margin-top: 1rem;
 }
 
 .presentation {
-    margin-top: 7rem;
     flex-direction: column;
     /*background-color: white;
     border: solid 0.09rem black;*/
@@ -142,8 +194,15 @@ nav {
     border: solid 0.09rem black;*/
 }
 
+.contact {
+    flex-direction: column;
+    color:#fefaf2;
+    /*background-color: white;
+    border: solid 0.09rem black;*/
+}
+
 footer {
-    color: #18191A;
+    color: #fefaf2;
     height: 2.2rem;
     inset: 0;
     font-size: 0.8rem;
@@ -196,8 +255,16 @@ footer {
     margin-left: 2rem;
 }
 
-.margin-2 {
+.margin-l1 {
     margin-left: 1rem;
+}
+
+.margin-r1 {
+    margin-right: 1rem;
+}
+
+.margin-top-7 {
+    margin-top: 7rem;
 }
 
 .line-height {
@@ -216,12 +283,20 @@ footer {
         font-size: 5rem;
     }
 
+    .contact-p {
+        font-size: 1rem;
+    }
+
     hr {
         margin-top: 3rem;
     }
 
-    .list-link:hover {
+    .li-link:hover {
         font-size: 6rem;
+    }
+
+    .graduation-hat:hover {
+        font-size: 3rem;
     }
 
     .margin-left {
@@ -232,7 +307,7 @@ footer {
         margin-right: 3rem;
     }
 
-    .margin-2 {
+    .margin-l1 {
         margin-left: 2rem;
     }
 
