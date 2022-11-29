@@ -4,21 +4,26 @@
     --header-height: 4rem;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background: #18191A;
-    color: #fefaf2;
-    font-family: 'Tenor Sans', sans-serif;
+    background: #efe5e0;
+    color: #18191A;
+    font-family: 'Forum', cursive;
 }
 
 header {
-    background: #fefaf2;
+    background: #efe5e0;
     height: var(--header-height);
-    inset: 0;
+    inset: 0 2rem;
     position: fixed;
     transition: height 400ms;
     overflow-y: hidden;
+    border-bottom: solid 0.1rem #18191A;
 }
 
 .open {
@@ -44,8 +49,8 @@ h2 {
 
 .icons {
     width: 100%;
-    background-color: white;
-    border: solid 0.09rem black;
+   /* background-color: white;
+    border: solid 0.09rem black;*/
 }
 
 .icon {
@@ -62,22 +67,26 @@ h2 {
 }
 
 .contact-icon {
-    color: #fefaf2;
+    color: #18191A;
     margin-left: 0;
     font-size: 2rem;
 }
 
+.contact-icon:hover {
+    font-size: 3rem;
+}
+
 .contact-icon-link {
-    color: #fefaf2;
+    color: #18191A;
 }
 
 .contact-icon-link:hover {
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 .graduation-hat {
     font-size: 2rem;
-    color: #fefaf2;
+    color: #18191A;
 }
 
 .graduation-hat:hover {
@@ -89,6 +98,8 @@ h2 {
 #burger-menu {
     font-size: 2rem;
     color: #18191A;
+    background-color: white;
+    border: solid 0.09rem black;
 }
 
 #burger-menu:hover {
@@ -119,9 +130,9 @@ h2 {
 }
 
 .home-li-link {
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Forum', cursive;
     text-decoration: none;
-    color: #fefaf2;
+    color: #18191A;
 }
 
 .home-li-link:hover {
@@ -168,33 +179,36 @@ p {
 .school {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    color: #fefaf2;
+    color: #18191A;
     text-decoration: none;
 }
 
 .school:hover {
     transition: all 0.5s ease-out;
-    color: #fefaf2;
+    color: #18191A;
     text-decoration: underline;
     font-size: 1.2rem;
 }
 
 a {
-    color: #fefaf2;
+    color: #18191A;
     text-decoration: none;
 }
 
 a:hover {
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
-    color: #fefaf2;
+    color: #18191A;
 }
 
-hr {
-    background-color: #fefaf2;
-    border-style: solid;
+/* Styling for line at end of container */
+
+.line {
+    border-bottom: solid 0.1rem #18191A;
     margin-top: 1rem;
 }
+
+/* Styling for containers/sections */
 
 .presentation {
     flex-direction: column;
@@ -212,14 +226,14 @@ hr {
 
 .contact {
     flex-direction: column;
-    color:#fefaf2;
+    color: #18191A;
     /*background-color: white;
     border: solid 0.09rem black;*/
 }
 
 footer {
-    color: #fefaf2;
-    height: 2.2rem;
+    color: #18191A;
+    height: 2.8rem;
     inset: 0;
     font-size: 0.8rem;
 }
@@ -303,10 +317,6 @@ footer {
         font-size: 1rem;
     }
 
-    hr {
-        margin-top: 3rem;
-    }
-
     .home-li-link:hover {
         font-size: 6rem;
     }
@@ -347,6 +357,7 @@ footer {
 
     header {
         justify-content: center;
+        inset: 0 4em;
     }
 
     main {
@@ -358,15 +369,11 @@ footer {
     }
 
     .icons {
-        justify-content: flex-start;
+        /*justify-content: flex-start;*/
     }
 
     i {
-        margin-left: 3rem;
-    }
-
-    hr {
-        margin-top: 1rem;
+       /* margin-left: 3rem;*/
     }
 
     .margin-left {
