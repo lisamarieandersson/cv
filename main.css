@@ -84,7 +84,7 @@ h2 {
     font-size: 2.2rem;
 }
 
-/* Styling for burger menu */
+/* Styling for burger menu icon */
 
 #burger-menu {
     font-size: 2rem;
@@ -100,34 +100,40 @@ h2 {
 
 .lower-section {
     color: #fefaf2;
+    margin-top: 3rem;
 }
 
-ul {
+.home-ul {
     margin: 0;
     padding: 0;
 }
 
-li {
+.home-li {
     list-style-type: none;
     font-size: 3.2rem;
 }
 
-.li-link {
+.home-li-link {
     font-family: 'Tenor Sans', sans-serif;
     text-decoration: none;
     color: #fefaf2;
 }
 
-.li-link:hover {
+.home-li-link:hover {
     font-size: 3.6rem;
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
+}
+
+.burger-ul {
+    padding: 0;
 }
 
 .burger-li {
     font-size: 2.2rem;
     margin-bottom: 1.4rem;
     color: #18191A;
+    list-style-type: none;
 }
 
 .burger-li-link {
@@ -167,6 +173,10 @@ p {
     font-size: 1.2rem;
 }
 
+a {
+    color: #fefaf2;
+    text-decoration: none;
+}
 
 a:hover {
     transition: all 0.5s ease-out;
@@ -186,7 +196,7 @@ hr {
     border: solid 0.09rem black;*/
 }
 
-nav {
+.home-nav {
     padding: 0;
     margin-top: 2rem;
     margin-bottom: 4rem;
@@ -279,7 +289,7 @@ footer {
         font-size: 1.9rem;
     }
 
-    li {
+    .home-li {
         font-size: 5rem;
     }
 
@@ -291,7 +301,7 @@ footer {
         margin-top: 3rem;
     }
 
-    .li-link:hover {
+    .home-li-link:hover {
         font-size: 6rem;
     }
 
@@ -325,7 +335,7 @@ footer {
         height: 32rem;
     }
 
-    nav {
+    .home-nav {
         margin-top: 7rem;
     }
 
