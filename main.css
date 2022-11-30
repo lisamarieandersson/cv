@@ -229,12 +229,13 @@ a:hover {
     color: #18191A;
     /*background-color: white;
     border: solid 0.09rem black;*/
+    /*border-bottom: solid 0.1rem #18191A;*/
 }
 
 footer {
     color: #18191A;
-    height: 2.8rem;
-    inset: 0;
+    height: 3.4rem;
+    inset: 0 2rem;
     font-size: 0.8rem;
 }
 
@@ -304,6 +305,10 @@ footer {
 /* Tablet */
 
 @media (min-width: 768px) {
+
+    header {
+        inset: 0 3rem;
+    }
     
     h2 {
         font-size: 1.9rem;
@@ -366,14 +371,6 @@ footer {
 
     h2 {
         font-size: 2.2rem;
-    }
-
-    .icons {
-        /*justify-content: flex-start;*/
-    }
-
-    i {
-       /* margin-left: 3rem;*/
     }
 
     .margin-left {
