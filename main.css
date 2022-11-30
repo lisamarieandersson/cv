@@ -33,7 +33,7 @@ header {
 
 footer {
     color: #18191A;
-    height: 3.4rem;
+    height: 4rem;
     inset: 0 2rem;
     font-size: 0.8rem;
 }
@@ -50,20 +50,19 @@ main {
 .contact {
     flex-direction: column;
     color: #18191A;
-    border: solid 0.09rem black;
-    /*border-bottom: solid 0.1rem #18191A;*/
+    /*border: solid 0.09rem black;*/
 }
 
 .about {
     flex: 2;
-    border: solid 0.09rem black;
+    /*border: solid 0.09rem black;*/
 }
 
 .img-container {
     padding-top: 4.5rem;
     flex: 1;
-    border: solid 0.09rem black;
     display: none;
+    /*border: solid 0.09rem black;*/
 }
 
 
@@ -332,6 +331,10 @@ a:hover {
     line-height: 1.6;
 }
 
+.border-top {
+    border-top: solid 0.1rem #18191A;
+}
+
 .margin-right {
     margin-right: 2rem;
 }
@@ -348,13 +351,22 @@ a:hover {
     margin-right: 1rem;
 }
 
+.margin-top-3 {
+    margin-top: 3;
+}
+
 .margin-top-7 {
     margin-top: 7rem;
+}
+
+.margin-top-4 {
+    margin-top: 4rem;
 }
 
 .margin-top-0 {
     margin-top: 0;
 }
+
 
 
 
