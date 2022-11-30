@@ -38,33 +38,27 @@ footer {
     font-size: 0.8rem;
 }
 
+main {
+    border: solid 0.09rem black;
+    margin: 0;
+}
+
 .presentation {
     flex-direction: column;
-    background-color: white;
     border: solid 0.09rem black;
 }
 
 .contact {
     flex-direction: column;
     color: #18191A;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
+    border: solid 0.09rem black;
     /*border-bottom: solid 0.1rem #18191A;*/
 }
 
 .about {
-    background-color: white;
     border: solid 0.09rem black;
 }
 
-.image-container {
-    background-color: white;
-    border: solid 0.09rem black;
-}
-
-img {
-    width: 20rem;
-}
 
 /* .open is for for function toggleMenu in JS file */
 /* Navigation menu in header opens/folds out 100% of the browser window when user clicks on it  */
@@ -87,6 +81,12 @@ h2 {
 }
 
 /* Styling for images */
+
+img {
+    width: 50%;
+    height: auto;
+    border: solid 0.09rem black;
+}
 
 /* Styling for icons */
 
@@ -141,7 +141,6 @@ h2 {
 #burger-menu {
     font-size: 2rem;
     color: #18191A;
-    background-color: white;
     border: solid 0.09rem black;
 }
 
@@ -150,7 +149,7 @@ h2 {
     color: #add8e6;
 }
 
-/* Styling for navigation menus, unordered list and list items */
+/* Styling for navigation menus with unordered lists and list items */
 
 .upper-section {
     height: var(--header-height);
@@ -349,12 +348,17 @@ a:hover {
         font-size: 5rem;
     }
 
-    .contact-p {
-        font-size: 1rem;
-    }
-
     .home-li-link:hover {
         font-size: 6rem;
+    }
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+
+    .contact-p {
+        font-size: 1rem;
     }
 
     .graduation-hat:hover {
@@ -379,8 +383,13 @@ a:hover {
 
 @media (min-width: 1024px) {
 
-    .flex-column {
-        flex-direction: row;
+    header {
+        justify-content: center;
+        inset: 0 4em;
+    }
+
+    main {
+        justify-content: center;
     }
 
     .presentation {
@@ -391,17 +400,16 @@ a:hover {
         margin-top: 7rem;
     }
 
-    header {
-        justify-content: center;
-        inset: 0 4em;
-    }
-
-    main {
-        justify-content: center;
+    .about {
+        margin-top: 7rem;
     }
 
     h2 {
         font-size: 2.2rem;
+    }
+
+    .flex-column {
+        flex-direction: row;
     }
 
     .margin-left {
