@@ -242,6 +242,7 @@ p {
     font-size: 0.8rem;
 }
 
+
 /* styling for other links */
 
 .school {
@@ -331,6 +332,10 @@ a:hover {
     line-height: 1.6;
 }
 
+.font-weight-600 {
+    font-weight: 600;
+}
+
 .border-top {
     border-top: solid 0.1rem #18191A;
 }
@@ -366,6 +371,7 @@ a:hover {
 .margin-top-0 {
     margin-top: 0;
 }
+
 
 
 
