@@ -14,7 +14,12 @@ body {
     background: #efe5e0;
     color: #18191A;
     font-family: 'Forum', cursive;
+    transition: 3s ease;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
+
+/* Styling for bigger elements */
 
 header {
     background: #efe5e0;
@@ -26,23 +31,47 @@ header {
     border-bottom: solid 0.1rem #18191A;
 }
 
-.open {
-    height: 100%;
+footer {
+    color: #18191A;
+    height: 3.4rem;
+    inset: 0 2rem;
+    font-size: 0.8rem;
 }
 
-.upper-section {
-    height: var(--header-height);
+.presentation {
+    flex-direction: column;
+    /*background-color: white;
+    border: solid 0.09rem black;*/
+}
+
+.contact {
+    flex-direction: column;
+    color: #18191A;
+    /*background-color: white;
+    border: solid 0.09rem black;*/
+    /*border-bottom: solid 0.1rem #18191A;*/
+}
+
+
+
+/* .open is for for function toggleMenu in JS file */
+/* Navigation menu in header opens/folds out 100% of the browser window when user clicks on it  */
+
+.open {
+    height: 100%;
 }
 
 /* Styling for headings */
 
 h1 {
     font-size: 4rem;
+    font-weight: 400;
 }
 
 
 h2 {
     font-size: 1.6rem;
+    font-weight: 400;
 }
 
 /* Styling for icons */
@@ -107,17 +136,24 @@ h2 {
     color: #add8e6;
 }
 
-/* Styling for navigation, unordered list and list items */
+/* Styling for navigation menus, unordered list and list items */
+
+.upper-section {
+    height: var(--header-height);
+}
 
 .lower-section {
     color: #fefaf2;
     margin-top: 3rem;
 }
 
-/*.home-nav {
-    background-color: white;
-    border: solid 0.09rem black;
-}*/
+.home-nav {
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    /*background-color: white;
+    border: solid 0.09rem black;*/
+}
 
 .home-ul {
     margin: 0;
@@ -174,7 +210,7 @@ p {
     font-size: 0.8rem;
 }
 
-/* styling for links */
+/* styling for other links */
 
 .school {
     font-family: 'Work Sans', sans-serif;
@@ -208,36 +244,17 @@ a:hover {
     margin-top: 1rem;
 }
 
-/* Styling for containers/sections */
+/* Animations */
 
-.presentation {
-    flex-direction: column;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
-}
-
-.home-nav {
-    padding: 0;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
-}
-
-.contact {
-    flex-direction: column;
-    color: #18191A;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
-    /*border-bottom: solid 0.1rem #18191A;*/
-}
-
-footer {
-    color: #18191A;
-    height: 3.4rem;
-    inset: 0 2rem;
-    font-size: 0.8rem;
-}
+@keyframes slidein {
+    from {
+      margin-top: 100%;
+    }
+  
+    to {
+      margin-bottom: 0%;
+    }
+  }
 
 
 /* Reusable classes */
