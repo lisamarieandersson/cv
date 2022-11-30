@@ -72,6 +72,7 @@ main {
 h1 {
     font-size: 4rem;
     font-weight: 400;
+    border: solid 0.09rem black;
 }
 
 
@@ -82,10 +83,19 @@ h2 {
 
 /* Styling for images */
 
-img {
+.img-profile-mobile {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    border: solid 0.09rem black;
+}
+
+.img-profile-desktop {
+    margin: 0;
     width: 50%;
     height: auto;
     border: solid 0.09rem black;
+    display: none;
 }
 
 /* Styling for icons */
@@ -156,7 +166,6 @@ img {
 }
 
 .lower-section {
-    color: #fefaf2;
     margin-top: 3rem;
 }
 
@@ -164,7 +173,6 @@ img {
     padding: 0;
     margin-top: 2rem;
     margin-bottom: 4rem;
-    background-color: white;
     border: solid 0.09rem black;
 }
 
@@ -352,9 +360,14 @@ a:hover {
         font-size: 6rem;
     }
 
-    img {
-        width: 50%;
+    .img-profile-mobile {
+        display: none;
+    }
+
+    .img-profile-desktop {
+        width: 30%;
         height: auto;
+        display: inline;
     }
 
     .contact-p {
