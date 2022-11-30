@@ -44,7 +44,7 @@ main {
 
 .presentation {
     flex-direction: column;
-    border: solid 0.09rem black;
+    /*border: solid 0.09rem black;/*
 }
 
 .contact {
@@ -113,7 +113,7 @@ h2 {
 
 .icons {
     width: 100%;
-   /* background-color: white;
+    /*background-color: white;
     border: solid 0.09rem black;*/
 }
 
@@ -162,7 +162,7 @@ h2 {
 #burger-menu {
     font-size: 2rem;
     color: #18191A;
-    border: solid 0.09rem black;
+    /*border: solid 0.09rem black;*/
 }
 
 #burger-menu:hover {
@@ -184,7 +184,7 @@ h2 {
     padding: 0;
     margin-top: 2rem;
     margin-bottom: 4rem;
-    border: solid 0.09rem black;
+    /*border: solid 0.09rem black;*/
 }
 
 .home-ul {
