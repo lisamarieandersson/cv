@@ -40,8 +40,8 @@ footer {
 
 .presentation {
     flex-direction: column;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
+    background-color: white;
+    border: solid 0.09rem black;
 }
 
 .contact {
@@ -52,7 +52,19 @@ footer {
     /*border-bottom: solid 0.1rem #18191A;*/
 }
 
+.about {
+    background-color: white;
+    border: solid 0.09rem black;
+}
 
+.image-container {
+    background-color: white;
+    border: solid 0.09rem black;
+}
+
+img {
+    width: 20rem;
+}
 
 /* .open is for for function toggleMenu in JS file */
 /* Navigation menu in header opens/folds out 100% of the browser window when user clicks on it  */
@@ -73,6 +85,8 @@ h2 {
     font-size: 1.6rem;
     font-weight: 400;
 }
+
+/* Styling for images */
 
 /* Styling for icons */
 
@@ -151,8 +165,8 @@ h2 {
     padding: 0;
     margin-top: 2rem;
     margin-bottom: 4rem;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
+    background-color: white;
+    border: solid 0.09rem black;
 }
 
 .home-ul {
