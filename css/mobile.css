@@ -2,27 +2,30 @@
 
 :root {
     --header-height: 4rem;
+    --primary-color: #efe5e0;
+    --font-color: #18191A;
+    --footer-height: 4rem;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+/* Styling for bigger elements */
+
 body {
     margin: 0;
     padding: 0;
-    background: #efe5e0;
-    color: #18191A;
+    background: var(--primary-color);
+    color: var(--font-color);
     font-family: 'Forum', cursive;
     transition: 3s ease;
     animation-duration: 3s;
     animation-name: slidein;
 }
 
-/* Styling for bigger elements */
-
 header {
-    background: #efe5e0;
+    background: var(--primary-color);
     height: var(--header-height);
     inset: 0 2rem;
     position: fixed;
@@ -32,37 +35,23 @@ header {
 }
 
 footer {
-    color: #18191A;
-    height: 4rem;
+    height: var(--footer-height);
     inset: 0 2rem;
     font-size: 0.8rem;
 }
 
-main {
-    margin: 0;
-}
-
 .presentation {
     flex-direction: column;
-    /*border: solid 0.09rem black;/*
-}
-
-.contact {
-    flex-direction: column;
-    color: #18191A;
-    /*border: solid 0.09rem black;*/
 }
 
 .about {
     flex: 2;
-    /*border: solid 0.09rem black;*/
 }
 
 .img-container {
     padding-top: 4.5rem;
     flex: 1;
     display: none;
-    /*border: solid 0.09rem black;*/
 }
 
 
@@ -77,35 +66,27 @@ main {
 
 h1 {
     font-size: 4rem;
-    font-weight: 400;
-    /*border: solid 0.09rem black;*/
 }
 
 .about-h1 {
     margin-bottom: 0;
 }
 
-
 h2 {
     font-size: 1.6rem;
-    font-weight: 400;
 }
 
 /* Styling for images */
 
 .img-profile-mobile {
-    margin: 0;
     width: 60%;
     height: auto;
-    /*border: solid 0.09rem black;*/
 }
 
 .img-profile-desktop {
-    margin: 0;
     width: 100%;
     height: auto;
     display: none;
-    /*border: solid 0.09rem black;*/
 }
 
 /* Styling for buttons */
@@ -126,25 +107,17 @@ button {
 
 .icons {
     width: 100%;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
 }
 
 .icon {
     font-size: 2rem;
-    color: #18191A;
 }
 
 .icon:hover {
     font-size: 3rem;
 }
 
-.icon-link {
-    color: #18191A;
-}
-
 .contact-icon {
-    color: #18191A;
     margin-left: 0;
     font-size: 2rem;
 }
@@ -153,17 +126,12 @@ button {
     font-size: 3rem;
 }
 
-.contact-icon-link {
-    color: #18191A;
-}
-
 .contact-icon-link:hover {
     text-decoration: underline;
 }
 
 .graduation-hat {
     font-size: 2rem;
-    color: #18191A;
 }
 
 .graduation-hat:hover {
@@ -174,8 +142,6 @@ button {
 
 #burger-menu {
     font-size: 2rem;
-    color: #18191A;
-    /*border: solid 0.09rem black;*/
 }
 
 #burger-menu:hover {
@@ -197,7 +163,6 @@ button {
     padding: 0;
     margin-top: 2rem;
     margin-bottom: 4rem;
-    /*border: solid 0.09rem black;*/
 }
 
 .home-ul {
@@ -213,7 +178,6 @@ button {
 .home-li-link {
     font-family: 'Forum', cursive;
     text-decoration: none;
-    color: #18191A;
 }
 
 .home-li-link:hover {
@@ -229,26 +193,22 @@ button {
 .burger-li {
     font-size: 2.2rem;
     margin-bottom: 1.4rem;
-    color: #18191A;
     list-style-type: none;
 }
 
 .burger-li-link {
-    color: #18191A;
     text-decoration: none;
 }
 
 .burger-li-link:hover {
     font-size: 3rem;
-    color: #18191A;
+    color: var(--font-color);
 }
 
 /* Styling for paragraphs */
 
 p {
     font-family: 'Work Sans', sans-serif;
-    /*background-color: white;
-    border: solid 0.09rem black;*/
 }
 
 .contact-p {
@@ -258,36 +218,22 @@ p {
 
 /* styling for other links */
 
-.school {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-    color: #18191A;
-    text-decoration: none;
-}
-
-.school:hover {
-    transition: all 0.5s ease-out;
-    color: #18191A;
-    text-decoration: underline;
-    font-size: 1.2rem;
-}
-
 a {
-    color: #18191A;
+    color: var(--font-color);
     text-decoration: none;
 }
 
 a:hover {
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
-    color: #18191A;
+    color: var(--font-color);
     font-size: 1.2rem;
 }
 
 /* Styling for line at end of container */
 
 .line {
-    border-bottom: solid 0.1rem #18191A;
+    border-bottom: solid 0.1rem var(--font-color);
     margin-top: 1rem;
 }
 
@@ -334,6 +280,10 @@ a:hover {
     align-items: center;
 }
 
+.font-color {
+    color: var(--font-color);
+}
+
 .spacing {
     letter-spacing: .08rem;
 }
@@ -346,12 +296,20 @@ a:hover {
     line-height: 1.6;
 }
 
+.font-weight-400 {
+    font-weight: 400;
+}
+
 .font-weight-600 {
     font-weight: 600;
 }
 
 .border-top {
-    border-top: solid 0.1rem #18191A;
+    border-top: solid 0.1rem var(--font-color);
+}
+
+.margin-0 {
+    margin: 0;
 }
 
 .margin-right {

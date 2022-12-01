@@ -13,7 +13,6 @@ function main() {
 function addEventListeners() {
   const burgerMenuButton = document.getElementById('burger-menu');
   burgerMenuButton.onclick = toggleMenu;
-  //burgerMenuButton.addEventListener('click', toggleMenu);
 }
 
 /**
