@@ -11,12 +11,12 @@
         justify-content: center;
     }
 
-    .presentation {
-        height: 32rem;
-    }
-
     .home-nav {
         margin-top: 7rem;
+    }
+
+    .presentation {
+        margin-bottom: 7rem;
     }
 
     .img-profile-desktop {
