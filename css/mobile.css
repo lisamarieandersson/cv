@@ -3,7 +3,7 @@
 :root {
     --header-height: 4rem;
     --primary-color: #efe5e0;
-    --font-color: #18191A;
+    --secondary-color: #18191A;
     --footer-height: 4rem;
 }
 
@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     background: var(--primary-color);
-    color: var(--font-color);
+    color: var(--secondary-color);
     font-family: 'Forum', cursive;
     transition: 3s ease;
     animation-duration: 3s;
@@ -31,7 +31,7 @@ header {
     position: fixed;
     transition: height 400ms;
     overflow-y: hidden;
-    border-bottom: solid 0.1rem #18191A;
+    border-bottom: solid 0.1rem var(--secondary-color);
 }
 
 footer {
@@ -53,7 +53,6 @@ footer {
     flex: 1;
     display: none;
 }
-
 
 /* .open is for for function toggleMenu in JS file */
 /* Navigation menu in header opens/folds out 100% of the browser window when user clicks on it  */
@@ -94,7 +93,7 @@ h2 {
 button {
     font-family: 'Forum', cursive;
     font-size: 2rem;
-    background: #18191A;
+    background: var(--secondary-color);
     color: white;
     width: 12rem;
     padding: 1rem;
@@ -105,43 +104,16 @@ button {
 
 /* Styling for icons */
 
-.icons {
-    width: 100%;
-}
-
-.icon {
+i {
     font-size: 2rem;
 }
 
-.icon:hover {
+i:hover {
     font-size: 3rem;
-}
-
-.contact-icon {
-    margin-left: 0;
-    font-size: 2rem;
-}
-
-.contact-icon:hover {
-    font-size: 3rem;
-}
-
-.contact-icon-link:hover {
-    text-decoration: underline;
-}
-
-.graduation-hat {
-    font-size: 2rem;
 }
 
 .graduation-hat:hover {
     font-size: 2.2rem;
-}
-
-/* Styling for burger menu icon */
-
-#burger-menu {
-    font-size: 2rem;
 }
 
 #burger-menu:hover {
@@ -166,7 +138,6 @@ button {
 }
 
 .home-ul {
-    margin: 0;
     padding: 0;
 }
 
@@ -186,10 +157,6 @@ button {
     text-decoration-line: underline;
 }
 
-.burger-ul {
-    padding: 0;
-}
-
 .burger-li {
     font-size: 2.2rem;
     margin-bottom: 1.4rem;
@@ -202,7 +169,7 @@ button {
 
 .burger-li-link:hover {
     font-size: 3rem;
-    color: var(--font-color);
+    color: var(--secondary-color);
 }
 
 /* Styling for paragraphs */
@@ -216,24 +183,24 @@ p {
 }
 
 
-/* styling for other links */
+/* styling for links not defined by a classname */
 
 a {
-    color: var(--font-color);
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
 a:hover {
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
-    color: var(--font-color);
+    color: var(--secondary-color);
     font-size: 1.2rem;
 }
 
 /* Styling for line at end of container */
 
 .line {
-    border-bottom: solid 0.1rem var(--font-color);
+    border-bottom: solid 0.1rem var(--secondary-color);
     margin-top: 1rem;
 }
 
@@ -251,6 +218,12 @@ a:hover {
 
 
 /* Reusable classes */
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
 
 .flex {
     display: flex;
@@ -280,8 +253,8 @@ a:hover {
     align-items: center;
 }
 
-.font-color {
-    color: var(--font-color);
+.secondary-color {
+    color: var(--secondary-color);
 }
 
 .spacing {
@@ -305,7 +278,7 @@ a:hover {
 }
 
 .border-top {
-    border-top: solid 0.1rem var(--font-color);
+    border-top: solid 0.1rem var(--secondary-color);
 }
 
 .margin-0 {
@@ -318,6 +291,10 @@ a:hover {
 
 .margin-left {
     margin-left: 2rem;
+}
+
+.margin-l0 {
+    margin-left: 0;
 }
 
 .margin-l1 {
@@ -346,6 +323,10 @@ a:hover {
 
 .margin-bottom-3 {
     margin-bottom: 3rem;
+}
+
+.padding-0 {
+    padding: 0;
 }
 
 
