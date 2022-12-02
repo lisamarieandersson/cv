@@ -227,7 +227,7 @@ iframe[seamless] {
     display: block;
 }
 
-/* Animations */
+/* Animations - reusable class */
 
 .animation {
     transition: 3s ease;
