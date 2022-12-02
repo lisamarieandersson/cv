@@ -219,6 +219,14 @@ a:hover {
     min-height: 100%;
 }
 
+iframe:focus {
+    outline: none;
+}
+  
+iframe[seamless] {
+    display: block;
+}
+
 /* Animations */
 
 .animation {

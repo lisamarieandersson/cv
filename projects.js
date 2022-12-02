@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', main);
 
 /**
- * Här startar programmet, dessa funktioner ska vara förberedda att köras när sidan laddat klart
+ * Detta program laddar funktioner som ska vara redo när sidan körs
  * @function main
  */
 function main() {
@@ -11,7 +11,7 @@ function main() {
 
 /**
  * Denna funktion lyssnar efter om användaren klickar på hamburgermenyn som finns 
- * på sidan och aktiverar då denna knapp för att användaren ska kunna öppna menyn
+ * på sidan och aktiverar då denna knapp för att användaren ska kunna klicka på den och öppna menyn
  * @function addEventListeners 
  */
 function addEventListeners() {
@@ -20,8 +20,9 @@ function addEventListeners() {
 }
 
 /**
- * Denna funktion gör att hamburgermenyn fälls ut 100% vertikalt i webbläsarfönstret när användaren 
- * klickar på den, så att användaren kan se och klicka på kategorier som finns i navigationen
+ * Denna funktion gör att hamburgermenyn fälls ut nedåt 100% av webbläsarfönstret
+ * när användaren klickar på den så användaren kan se och klicka påkategorier som 
+ * finns i navigationen
  * @function toggleMenu
  */
 function toggleMenu() {
@@ -33,10 +34,10 @@ function toggleMenu() {
 let i = 0;
 
 /** @type {(string|Array)} variabel med värdet av typen string som ska loopas igenom och skrivas ut */
-const text = "Hi, I'm Lisa Marie. I'm studying to become a Front End Developer at Medieinstitutet in Gothenburg.";
+const text = "Coming soon!";
 
 /** @type {(number)} @param {(number)} variabel med värdet av typen number som definierar vilken hastighet bokstäverna/textsträngen ska skrivas ut i. Används också som parameter. */
-let speed = 75;
+let speed = 110;
 
 /** @param {typeWriter} används som parameter tillsammans med variabeln let speed i funktionen setTimeout */
 
@@ -55,4 +56,3 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
-
