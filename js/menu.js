@@ -1,13 +1,3 @@
-window.addEventListener('DOMContentLoaded', main);
-
-/**
- * Här startar programmet
- * @function main
- */
-function main() {
-    eventBurgerMenu();
-}
-
 /**
  * Denna funktion lyssnar efter eventet om användaren klickar på hamburgermenyn som finns 
  * på sidan och aktiverar då denna knapp för att användaren ska kunna öppna menyn
