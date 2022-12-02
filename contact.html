@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/desktop.css">
     <!-- JavaScript -->
-    <script defer src="./main.js"></script>
+    <script src="./contact.js"></script>
 </head>
-<body class="animation">
+<body>
 
   <!--Hamburgermeny i headern som fälls ut nedåt när användaren klickar på den -->
   <header>
@@ -49,7 +49,9 @@
       <main class="margin-0">
         <div class="margin-left margin-right margin-top-7">
           <h1 class="spacing line-height uppercase font-weight-400">Hello!</h1>
-          <h2 class="spacing line-height uppercase font-weight-400">Contact me</h2>
+           <!--Här i h2-taggen nedan laddas en javascriptfunktion in som gör att 
+                meningen i denna heading skrivs ut bokstav för bokstav-->
+          <h2 id="typeOutLetters" class="spacing line-height uppercase font-weight-400"></h2>
           <p class="contact-p spacing line-height">
             <a class="font-color" href="mailto:lisamarie.andersson@gmail.com">
               <i class="margin-l0 margin-r1 font-color fa-solid fa-envelope"></i>
