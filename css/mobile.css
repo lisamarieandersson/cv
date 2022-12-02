@@ -178,7 +178,7 @@ p {
 }
 
 
-/* styling for links not defined by a classname */
+/* Styling for links not defined by a classname */
 
 a {
     color: var(--secondary-color);

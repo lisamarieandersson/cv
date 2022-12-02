@@ -1,4 +1,4 @@
-# CV - Webbsida
+# Digitalt CV
 
 ## Lisa Marie Andersson
 
