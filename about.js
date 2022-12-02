@@ -29,7 +29,7 @@ function toggleMenu() {
   header.classList.toggle("open");
 }
 
-/** @type {(string|Array)} variabeln i utgår från värdet med indexplats 0, så länge i är mindre än textlängden kommer loopen köras */
+/** @type {(string|Array)} variabel som kan innehålla flera värden. "i" utgår från värdet med indexplats 0, så länge "i" är mindre än textlängden kommer loopen i funktionen nedan att köras */
 let i = 0;
 
 /** @type {(string|Array)} variabel med värdet av typen string som ska loopas igenom och skrivas ut */

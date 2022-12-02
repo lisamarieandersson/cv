@@ -2,7 +2,7 @@
 
 ## Lisa Marie Andersson
 
-En webbsida på engelska som innehåller en presentation av mig, info om min utbildning, mina nuvarande kunskaper, färdigheter och kompetenser, CV och kontaktuppgifter. 
+En webbsida på engelska som innehåller en presentation av mig, info om min utbildning, mina nuvarande kunskaper, färdigheter och kompetenser, arbetslivserfarenhet, CV och kontaktuppgifter. 
 
 På sidan finns även en kategori som heter "Projects" där jag kommer ladda upp kommande projekt jag jobbar med. 
 
