@@ -1,3 +1,6 @@
+// Denna js-fil används som ett bibliotek för hamburgermenyn
+// Funktionerna för denna körs i de andra js-filerna
+
 /**
  * Denna funktion lyssnar efter eventet om användaren klickar på hamburgermenyn som finns 
  * på sidan och aktiverar då denna knapp för att användaren ska kunna öppna menyn
