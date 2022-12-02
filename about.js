@@ -35,7 +35,7 @@ let i = 0;
 /** @type {(string|Array)} variabel med värdet av typen string som ska loopas igenom och skrivas ut */
 const text = "Hi, I'm Lisa Marie. I'm studying to become a Front End Developer at Medieinstitutet in Gothenburg.";
 
-/** @type {(number)} @param {(number)} variabel med värdet av typen number som definierar vilken hastighet bokstäverna/textsträngen ska skrivas ut i */
+/** @type {(number)} @param {(number)} variabel med värdet av typen number som definierar vilken hastighet bokstäverna/textsträngen ska skrivas ut i. Används också som parameter. */
 let speed = 75;
 
 /**
