@@ -19,9 +19,6 @@ body {
     background: var(--primary-color);
     color: var(--secondary-color);
     font-family: 'Forum', cursive;
-    transition: 3s ease;
-    animation-duration: 3s;
-    animation-name: slidein;
 }
 
 header {
@@ -224,6 +221,12 @@ a:hover {
 
 /* Animations */
 
+.animation {
+    transition: 3s ease;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
 @keyframes slidein {
     from {
       margin-top: 100%;
@@ -232,7 +235,7 @@ a:hover {
     to {
       margin-bottom: 0%;
     }
-  }
+}
 
 
 /* Reusable classes */

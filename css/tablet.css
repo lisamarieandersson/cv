@@ -1,6 +1,6 @@
 /* Tablet */
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
 
     header {
         inset: 0 3rem;
