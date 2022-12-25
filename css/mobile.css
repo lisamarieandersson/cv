@@ -100,7 +100,7 @@ button {
 /* Styling for icons */
 
 i {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 i:hover {
@@ -210,14 +210,6 @@ a:hover {
     right: 0;
     min-width: 100%;
     min-height: 100%;
-}
-
-iframe:focus {
-    outline: none;
-}
-  
-iframe[seamless] {
-    display: block;
 }
 
 /* Animations - reusable class */
