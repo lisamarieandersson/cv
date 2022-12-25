@@ -23,6 +23,14 @@
         width: 80%;
         height: auto;
     }
+    
+    .cv-mobile {
+        display: none;
+    }
+
+    .responsive-iframe {
+        display: block;
+    }
 
     h2 {
         font-size: 2.2rem;

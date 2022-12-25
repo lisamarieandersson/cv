@@ -200,7 +200,13 @@ a:hover {
     margin-top: 1rem;
 }
 
-/* Styling for iframe - CV page */
+/* Styling for CV on mobile and tablet */
+
+.cv-mobile {
+    width: 100%;
+}
+
+/* Styling for iframe - CV on desktop */
 
 .responsive-iframe {
     position: absolute;
@@ -210,6 +216,7 @@ a:hover {
     right: 0;
     min-width: 100%;
     min-height: 100%;
+    display: none;
 }
 
 /* Animations - reusable class */
