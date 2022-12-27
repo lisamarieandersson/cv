@@ -19,6 +19,10 @@
         font-size: 2rem;
     }
 
+    i:hover {
+        font-size: 2.5rem;
+    }
+
     .main-about {
         flex-direction: row;
     }

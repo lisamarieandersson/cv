@@ -104,7 +104,7 @@ i {
 }
 
 i:hover {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .graduation-hat:hover {
@@ -112,7 +112,6 @@ i:hover {
 }
 
 #burger-menu:hover {
-    font-size: 2rem;
     color: #FFFFFF;
 }
 
