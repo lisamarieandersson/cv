@@ -20,7 +20,7 @@ let speed = 70;
 
 /**
  * @function typeWriter
- * Denna funktion genererar en text som ska skrivas ut bokstav för bokstav med hjälp av en while loop
+ * Loopar text som ska skrivas ut bokstav för bokstav
  * Värdet av hastigheten som bokstäverna ska skrivas ut i sparas i en global variabel med värdet "speed"
  * Funktionen anropar sig själv med hjälp av funktionen setTimeout
  */
