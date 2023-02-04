@@ -1,19 +1,17 @@
-// Denna js-fil används som ett bibliotek för hamburgermenyn
-// Funktionerna för denna körs i de andra js-filerna
+// This js-file is used as a library for the hamburger menu
+// The functions below will run inside the other js-files in this project
 
 /**
- * Lyssnar efter eventet om användaren klickar på hamburgermenyn som finns 
- * på sidan och aktiverar då denna knapp för att användaren ska kunna öppna menyn
- * @function eventBurgerMenu 
+ * Click event for hamburger menu
+ * @function eventBurgerMenu
  */
 function eventBurgerMenu() {
-  const burgerMenuButton = document.getElementById('burger-menu');
+  const burgerMenuButton = document.getElementById("burger-menu");
   burgerMenuButton.onclick = toggleMenu;
 }
 
 /**
- * Gör att hamburgermenyn fälls ut 100% vertikalt i webbläsarfönstret när användaren 
- * klickar på den, så att användaren kan se och klicka på kategorier som finns i navigationen
+ * Makes the hamburger menu toggle veritcally when the user clicks on it
  * @function toggleMenu
  */
 function toggleMenu() {
