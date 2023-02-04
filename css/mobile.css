@@ -182,6 +182,12 @@ p {
     font-size: 0.8rem;
 }
 
+/* Styling for project titles */
+
+.project-title:hover {
+    color: var(--secondary-color);
+    font-size: 2.4rem;
+}
 
 /* Styling for links not defined by a classname */
 
