@@ -85,6 +85,11 @@ h2 {
     display: none;
 }
 
+.bumpy-monster {
+    width: 100%;
+    height: auto;
+}
+
 /* Styling for buttons */
 
 button {
