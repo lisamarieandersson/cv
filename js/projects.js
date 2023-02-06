@@ -13,10 +13,10 @@ function main() {
 let letters = 0;
 
 /** @type {string} variable with value of type string that will be looped in the function below and written out in the DOM */
-const projectsText = "More projects coming soon!";
+const projectsText = "Projects";
 
 /** @type {number} variable with value of type number that defines the speed of the written letters */
-let speed = 120;
+let speed = 70;
 
 /**
  * @function typeWriter
