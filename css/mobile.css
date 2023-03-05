@@ -51,6 +51,12 @@ footer {
     display: none;
 }
 
+.bumpy-image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
 .bumpy-project {
     width: 18rem;
 }
