@@ -32,12 +32,20 @@
         display: block;
     }
 
+    .bumpy-image-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
     .bumpy-project {
         width: 38rem;
     }
 
     .bumpy-monster {
-        width: 50%;
+        width: 49.4%;
         height: auto;
     }
     h2 {
