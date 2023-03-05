@@ -51,6 +51,10 @@ footer {
     display: none;
 }
 
+.bumpy-project {
+    width: 18rem;
+}
+
 /* .open is for for function toggleMenu in JS file */
 /* Navigation menu in header opens/folds out 100% of the browser window when user clicks on it  */
 
@@ -114,14 +118,6 @@ i {
     font-size: 1.5rem;
 }
 
-i:hover {
-    font-size: 2rem;
-}
-
-.graduation-hat:hover {
-    transform: scale(1.2);
-}
-
 #burger-menu:hover {
     color: #FFFFFF;
 }
@@ -160,6 +156,7 @@ i:hover {
     font-size: 3.6rem;
     transition: all 0.5s ease-out;
     text-decoration-line: underline;
+    color:#18191A;
 }
 
 .burger-li {
@@ -203,10 +200,7 @@ a {
 }
 
 a:hover {
-    transition: all 0.5s ease-out;
-    text-decoration-line: underline;
-    color: var(--secondary-color);
-    font-size: 1.2rem;
+    color: #FFFFFF;
 }
 
 /* Styling for line at end of .presentation */

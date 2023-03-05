@@ -32,6 +32,10 @@
         display: block;
     }
 
+    .bumpy-project {
+        width: 38rem;
+    }
+
     .bumpy-monster {
         width: 50%;
         height: auto;
