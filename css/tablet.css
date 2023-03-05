@@ -47,6 +47,10 @@
         display: inline;
     }
 
+    .bumpy-project {
+        width: 38rem;
+    }
+
     .contact-p {
         font-size: 1rem;
     }
