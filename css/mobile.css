@@ -57,7 +57,7 @@ footer {
     gap: 0.8rem;
 }
 
-.bumpy-project-text {
+.project-text {
     width: 18rem;
 }
 
@@ -98,6 +98,14 @@ h2 {
 .bumpy-monster {
     width: 100%;
     height: auto;
+}
+
+.daily-horoscope-desktop {
+    display: none;
+}
+
+.daily-horoscope-mobile {
+    width: 100%;
 }
 
 /* Styling for buttons */
