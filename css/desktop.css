@@ -32,6 +32,11 @@
         display: block;
     }
 
+    .our-furnished-home-img {
+        width: 80%;
+        height: auto;
+    }
+
     .bumpy-image-container {
         display: flex;
         flex-direction: row;
