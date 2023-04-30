@@ -118,7 +118,7 @@ button {
     font-family: 'Forum', cursive;
     font-size: 1.2rem;
     background: var(--secondary-color);
-    color: white;
+    color: #FFFFFF;
     padding: 1rem;
     border-radius: 1rem;
     border-style: none;
@@ -126,7 +126,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: #FFFFFF;
+    background-color: #F6DED6;
     color: var(--secondary-color);
 }
 
@@ -137,7 +137,7 @@ i {
 }
 
 #burger-menu:hover {
-    color: #FFFFFF;
+    color: #F6DED6;
 }
 
 /* Styling for navigation menus with unordered lists and list items */
@@ -218,7 +218,7 @@ a {
 }
 
 a:hover {
-    color: #FFFFFF;
+    color: #F6DED6;
 }
 
 /* Styling for line at end of .presentation */
