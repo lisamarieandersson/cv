@@ -26,10 +26,14 @@
 
   /* Styling for spans */
 
-  span {
+  .contact-header {
     font-family: "Work Sans", sans-serif;
     font-size: 0.8rem;
     display: inline;
+  }
+
+  span {
+    font-family: "Work Sans", sans-serif;
   }
 
   .presentation {
