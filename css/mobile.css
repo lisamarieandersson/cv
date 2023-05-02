@@ -1,385 +1,396 @@
 /* Mobile first */
 
 :root {
-    --header-height: 4rem;
-    --primary-color: #f8f7f2;
-    --secondary-color: #18191A;
-    --footer-height: 4rem;
+  --header-height: 4rem;
+  --primary-color: #f8f7f2;
+  --secondary-color: #18191a;
+  --footer-height: 4rem;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Styling for bigger elements */
 
 body {
-    margin: 0;
-    padding: 0;
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    font-family: 'Forum', cursive;
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: "Forum", cursive;
 }
 
 header {
-    background: var(--primary-color);
-    height: var(--header-height);
-    inset: 0 2rem;
-    position: fixed;
-    transition: height 400ms;
-    overflow-y: hidden;
-    border-bottom: solid 0.1rem var(--secondary-color);
+  background: var(--primary-color);
+  height: var(--header-height);
+  inset: 0 2rem;
+  position: fixed;
+  transition: height 400ms;
+  overflow-y: hidden;
+  border-bottom: solid 0.1rem var(--secondary-color);
 }
 
 footer {
-    height: var(--footer-height);
-    inset: 0 2rem;
-    font-size: 0.8rem;
+  height: var(--footer-height);
+  inset: 0 2rem;
+  font-size: 0.8rem;
 }
 
 .presentation {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .about {
-    flex: 2;
+  flex: 2;
 }
 
 .img-container {
-    padding-top: 4.5rem;
-    flex: 1;
-    display: none;
+  padding-top: 4.5rem;
+  flex: 1;
+  display: none;
 }
 
 .bumpy-image-container {
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 .project-text {
-    width: 18rem;
+  width: 18rem;
 }
 
 /* .open is for for function toggleMenu in JS file */
 /* Navigation menu in header opens/folds out 100% of the browser window when user clicks on it  */
 
 .open {
-    height: 100%;
+  height: 100%;
 }
 
 /* Styling for headings */
 
 h1 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .about-h1 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 h2 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 /* Styling for images */
 
 .img-profile-mobile {
-    width: 60%;
-    height: auto;
+  width: 60%;
+  height: auto;
 }
 
 .img-profile-desktop {
-    width: 100%;
-    height: auto;
-    display: none;
+  width: 100%;
+  height: auto;
+  display: none;
 }
 
 .our-furnished-home-img {
-    width: 100%;
+  width: 100%;
 }
 
 .bumpy-monster {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .daily-horoscope-desktop {
-    display: none;
+  display: none;
 }
 
 .daily-horoscope-mobile {
-    width: 100%;
+  width: 100%;
 }
 
 /* Styling for buttons */
 
 button {
-    font-family: 'Forum', cursive;
-    font-size: 1.2rem;
-    background: var(--secondary-color);
-    color: #FFFFFF;
-    padding: 1rem;
-    border-radius: 1rem;
-    border-style: none;
+  font-family: "Forum", cursive;
+  font-size: 1.2rem;
+  background: var(--secondary-color);
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-style: none;
 }
 
 button:hover {
-    cursor: pointer;
-    background-color: #F6DED6;
-    color: var(--secondary-color);
+  cursor: pointer;
+  background-color: #959d90;
+  color: var(--secondary-color);
 }
 
 /* Styling for icons */
 
 i {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.display {
+  display: inline;
+}
+
+#burger-menu {
+  font-size: 2rem;
+  color: var(--secondary-color);
 }
 
 #burger-menu:hover {
-    color: #F6DED6;
+  color: #959d90;
 }
 
 /* Styling for navigation menus with unordered lists and list items */
 
 .upper-section {
-    height: var(--header-height);
+  height: var(--header-height);
 }
 
 .lower-section {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .home-nav {
-    padding: 0;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+  padding: 0;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .home-ul {
-    padding: 0;
+  padding: 0;
 }
 
 .home-li {
-    list-style-type: none;
-    font-size: 3.2rem;
+  list-style-type: none;
+  font-size: 3.2rem;
 }
 
 .home-li-link {
-    font-family: 'Forum', cursive;
-    text-decoration: none;
+  font-family: "Forum", cursive;
+  text-decoration: none;
 }
 
 .home-li-link:hover {
-    font-size: 3.6rem;
-    transition: all 0.5s ease-out;
-    text-decoration-line: underline;
-    color:#18191A;
+  font-size: 3.6rem;
+  transition: all 0.5s ease-out;
+  text-decoration-line: underline;
+  color: #18191a;
 }
 
 .burger-li {
-    font-size: 2.2rem;
-    margin-bottom: 1.4rem;
-    list-style-type: none;
+  font-size: 2.2rem;
+  margin-bottom: 1.4rem;
+  list-style-type: none;
 }
 
 .burger-li-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .burger-li-link:hover {
-    font-size: 3rem;
-    color: var(--secondary-color);
+  font-size: 3rem;
+  color: var(--secondary-color);
 }
 
 /* Styling for paragraphs */
 
 p {
-    font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .contact-p {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
+}
+
+/* Styling for spans */
+
+span {
+  display: none;
 }
 
 /* Styling for project titles */
 
 .project-title:hover {
-    color: var(--secondary-color);
-    font-size: 2.4rem;
+  color: var(--secondary-color);
+  font-size: 2.4rem;
 }
 
 /* Styling for links not defined by a classname */
 
 a {
-    color: var(--secondary-color);
-    text-decoration: none;
-
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 
 a:hover {
-    color: #F6DED6;
+  color: #959d90;
 }
 
 /* Styling for line at end of .presentation */
 
 .line {
-    border-bottom: solid 0.1rem var(--secondary-color);
-    margin-top: 1rem;
+  border-bottom: solid 0.1rem var(--secondary-color);
+  margin-top: 1rem;
 }
 
 /* Styling for CV on mobile and tablet */
 
 .cv-mobile {
-    width: 100%;
+  width: 100%;
 }
 
 /* Styling for iframe - CV on desktop */
 
 .responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  display: none;
 }
 
 /* Animations - reusable class */
 
 .animation {
-    transition: 3s ease;
-    animation-duration: 3s;
-    animation-name: slidein;
+  transition: 3s ease;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 @keyframes slidein {
-    from {
-      margin-top: 100%;
-    }
-  
-    to {
-      margin-bottom: 0%;
-    }
-}
+  from {
+    margin-top: 100%;
+  }
 
+  to {
+    margin-bottom: 0%;
+  }
+}
 
 /* Reusable classes */
 
 .container {
-    width: 100%;
-    max-width: 1280px;
-    margin: auto;
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-row {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .flex-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .flex-justify-around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .flex-justify-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .flex-justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .flex-align-center {
-    align-items: center;
+  align-items: center;
 }
 
 .secondary-color {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .spacing {
-    letter-spacing: .08rem;
+  letter-spacing: 0.08rem;
 }
 
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .line-height {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 .font-weight-400 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .font-weight-600 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .border-top {
-    border-top: solid 0.1rem var(--secondary-color);
+  border-top: solid 0.1rem var(--secondary-color);
 }
 
 .margin-0 {
-    margin: 0;
+  margin: 0;
 }
 
 .margin-right {
-    margin-right: 2rem;
+  margin-right: 2rem;
 }
 
 .margin-left {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 .margin-l0 {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .margin-l1 {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .margin-r1 {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .margin-top-3 {
-    margin-top: 3;
+  margin-top: 3;
 }
 
 .margin-top-7 {
-    margin-top: 7rem;
+  margin-top: 7rem;
 }
 
 .margin-top-4 {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .margin-top-0 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .margin-bottom-3 {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .margin-bottom-0 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .padding-0 {
-    padding: 0;
+  padding: 0;
 }
-
-
