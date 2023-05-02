@@ -1,82 +1,99 @@
-/* Desktop */ 
+/* Desktop */
 
 @media (min-width: 1024px) {
+  header {
+    justify-content: center;
+    inset: 0 4em;
+  }
 
-    header {
-        justify-content: center;
-        inset: 0 4em;
-    }
+  main {
+    justify-content: center;
+  }
 
-    main {
-        justify-content: center;
-    }
+  .home-nav {
+    margin-top: 7rem;
+  }
 
-    .home-nav {
-        margin-top: 7rem;
-    }
+  #burger-menu {
+    font-size: 2.5rem;
+  }
 
-    .presentation {
-        margin-bottom: 7rem;
-    }
+  /* Styling for icons */
 
-    .img-profile-desktop {
-        width: 80%;
-        height: auto;
-    }
-    
-    .cv-mobile {
-        display: none;
-    }
+  .display {
+    display: none;
+  }
 
-    .responsive-iframe {
-        display: block;
-    }
+  /* Styling for spans */
 
-    .our-furnished-home-img {
-        width: 80%;
-        height: auto;
-    }
+  span {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.8rem;
+    display: inline;
+  }
 
-    .bumpy-image-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 0.8rem;
-    }
+  .presentation {
+    margin-bottom: 7rem;
+  }
 
-    .bumpy-monster {
-        width: 49.4%;
-        height: auto;
-    }
+  .img-profile-desktop {
+    width: 80%;
+    height: auto;
+  }
 
-    .daily-horoscope-desktop {
-        width: 80%;
-        height: auto;
-        display: inline;
-    }
+  .cv-mobile {
+    display: none;
+  }
 
-    .daily-horoscope-mobile {
-        display: none;
-    }
+  .responsive-iframe {
+    display: block;
+  }
 
-    h2 {
-        font-size: 2.2rem;
-    }
+  .our-furnished-home-img {
+    width: 80%;
+    height: auto;
+  }
 
-    button {
-        font-size: 2rem;
-    }
+  .bumpy-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+  }
 
-    .flex-column {
-        flex-direction: row;
-    }
+  .bumpy-monster {
+    width: 49.4%;
+    height: auto;
+  }
 
-    .margin-left {
-        margin-left: 4rem;
-    }
+  .daily-horoscope-desktop {
+    width: 80%;
+    height: auto;
+    display: inline;
+  }
 
-    .margin-right {
-        margin-right: 4rem;
-    }
+  .daily-horoscope-mobile {
+    display: none;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  button {
+    font-size: 2rem;
+  }
+
+  .flex-column {
+    flex-direction: row;
+  }
+
+  .margin-left {
+    margin-left: 4rem;
+  }
+
+  .margin-right {
+    margin-right: 4rem;
+  }
 }
