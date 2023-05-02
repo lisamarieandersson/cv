@@ -211,9 +211,9 @@ p {
   font-size: 0.8rem;
 }
 
-/* Styling for spans */
+/* Styling for spans in header */
 
-span {
+.contact-header {
   display: none;
 }
 
