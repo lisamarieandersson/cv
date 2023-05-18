@@ -18,7 +18,7 @@ body {
   padding: 0;
   background: var(--primary-color);
   color: var(--secondary-color);
-  font-family: "Forum", cursive;
+  font-family: 'Ovo', serif;
 }
 
 header {
@@ -115,7 +115,7 @@ h2 {
 /* Styling for buttons */
 
 button {
-  font-family: "Forum", cursive;
+  font-family: 'Ovo', serif;
   font-size: 1.2rem;
   background: var(--secondary-color);
   color: #ffffff;
@@ -175,7 +175,7 @@ i {
 }
 
 .home-li-link {
-  font-family: "Forum", cursive;
+  font-family: 'Ovo', serif;
   text-decoration: none;
 }
 
@@ -204,7 +204,7 @@ i {
 /* Styling for paragraphs */
 
 p {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .contact-p {
@@ -323,9 +323,9 @@ a:hover {
   letter-spacing: 0.08rem;
 }
 
-.uppercase {
+/* .uppercase {
   text-transform: uppercase;
-}
+} */
 
 .line-height {
   line-height: 1.6;
