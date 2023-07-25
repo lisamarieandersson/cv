@@ -1,5 +1,7 @@
 /* Mobile first */
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
 :root {
   --header-height: 4rem;
   --primary-color: #f8f7f2;
@@ -18,7 +20,7 @@ body {
   padding: 0;
   background: var(--primary-color);
   color: var(--secondary-color);
-  font-family: 'Ovo', serif;
+  font-family: 'Fraunces', serif;
 }
 
 header {
@@ -115,7 +117,7 @@ h2 {
 /* Styling for buttons */
 
 button {
-  font-family: 'Ovo', serif;
+  font-family: 'Fraunces', serif;
   font-size: 1.2rem;
   background: var(--secondary-color);
   color: #ffffff;
@@ -175,7 +177,7 @@ i {
 }
 
 .home-li-link {
-  font-family: 'Ovo', serif;
+  font-family: 'Fraunces', serif;
   text-decoration: none;
 }
 
