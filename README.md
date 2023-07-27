@@ -8,7 +8,7 @@ This is a website with my digital CV. It contains different pages with a present
 Under **_Projects_** you can view the most resent projects I've done within web development.
 <br>
 
-The website is built with **HTML**, **CSS** och **JavaScript**.
+The website is built with **HTML**, **CSS** and **JavaScript**.
 
 <br>
 Demo link to the page:
