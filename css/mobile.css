@@ -101,6 +101,11 @@ h2 {
   width: 100%;
 }
 
+.weather-app {
+  width: 100%;
+  height: auto;
+}
+
 .bumpy-monster {
   width: 100%;
   height: auto;
