@@ -27,13 +27,13 @@
   /* Styling for spans */
 
   .contact-header {
-    font-family: "Work Sans", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 0.8rem;
     display: inline;
   }
 
   span {
-    font-family: "Work Sans", sans-serif;
+    font-family: 'Work Sans', sans-serif;
   }
 
   .presentation {
@@ -54,6 +54,11 @@
   }
 
   .our-furnished-home-img {
+    width: 80%;
+    height: auto;
+  }
+
+  .weather-app {
     width: 80%;
     height: auto;
   }
