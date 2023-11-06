@@ -11,6 +11,11 @@
 
 html {
   scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
 }
 
 /* Styling for bigger elements */
@@ -21,6 +26,13 @@ body {
   background: var(--primary-color);
   color: var(--secondary-color);
   font-family: 'Fraunces', serif;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 header {
@@ -82,6 +94,10 @@ h1 {
 
 h2 {
   font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.4rem;
 }
 
 /* Styling for images */
