@@ -53,12 +53,10 @@
     display: block;
   }
 
-  .our-furnished-home-img {
-    width: 80%;
-    height: auto;
-  }
-
-  .weather-app {
+  .vasttrafik,
+  .pixel-perfect,
+  .weather-app,
+  .our-furnished-home {
     width: 80%;
     height: auto;
   }

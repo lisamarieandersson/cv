@@ -113,16 +113,11 @@ h3 {
   display: none;
 }
 
-.our-furnished-home-img {
-  width: 100%;
-  height: auto;
-}
-
-.weather-app {
-  width: 100%;
-  height: auto;
-}
-
+.vasttrafik,
+.weather-app,
+.pixel-perfect,
+.weather-app,
+.our-furnished-home,
 .bumpy-monster {
   width: 100%;
   height: auto;
