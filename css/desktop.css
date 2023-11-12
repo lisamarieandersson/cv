@@ -53,6 +53,10 @@
     display: block;
   }
 
+  .project-text {
+    flex: 2;
+  }
+
   .vasttrafik,
   .pixel-perfect,
   .weather-app,
